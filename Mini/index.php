@@ -6,7 +6,9 @@ $app = new App\App;
 $container = $app->getContainer();
 
 $container['errorHandler'] = function () {
-  die('404 Error - Not Found');
+  return function (\App\Response $response) {
+      return $response->setBody('Page not found')->withStatus(404);
+  };
 };
 
 $container['config'] = function () {
@@ -27,17 +29,9 @@ $container['db'] = function ($c) {
     );
 };
 
-$app->get('/', function() {
-    echo 'Home';
-});
-
-$app->map('/users', function() {
-    echo 'Users';
-}, ['GET', 'POST']);
-
-$app->post('/signup', function() {
-    echo 'Sign up';
-});
+$app->get('/', [\App\Controllers\HomeController::class, 'execute']);
+$app->get('/home', [new App\Controllers\HomeController($container->db), 'home']);
+$app->get('/users', [new App\Controllers\UserController($container->db), 'execute']);
 
 $app->run();
 
