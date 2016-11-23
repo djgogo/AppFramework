@@ -6,7 +6,3 @@ $app->get('/users', [new App\Controllers\UserController($container->db), 'execut
 $app->post('/test', [\App\Controllers\TestController::class, 'execute']);
 $app->map('/test', [\App\Controllers\TestController::class, 'execute'], ['GET', 'POST']);
 
-$app->get('/contact', function ($response) use ($app) {
-    return 'Oh hai';
-});
-
