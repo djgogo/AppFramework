@@ -92,6 +92,10 @@ namespace App {
                 ''
             ));
 
+            foreach ($response->getHeaders() as $header) {
+                header($header[0] . ': ' . $header[1]);
+            }
+
             echo $response->getBody();
         }
     }

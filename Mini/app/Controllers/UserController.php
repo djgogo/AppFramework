@@ -3,6 +3,7 @@ declare(strict_types = 1);
 
 namespace App\Controllers {
 
+    use App\Models\User;
     use App\Response;
 
     class UserController
@@ -19,7 +20,9 @@ namespace App\Controllers {
 
         public function execute(Response $response)
         {
-            echo 'Users';
+            $users = $this->db->query('SELECT * FROM user')->fetchAll(\PDO::FETCH_CLASS, User::class);
+
+            return $response->withJson($users);
         }
     }
 }

@@ -14,14 +14,14 @@ namespace App {
         protected $routes = [];
 
         /**
-         * @var string
-         */
-        private $path;
-
-        /**
          * @var array
          */
         protected $methods = [];
+
+        /**
+         * @var string
+         */
+        private $path;
 
         public function setPath($path = '/')
         {
