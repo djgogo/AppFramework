@@ -1,10 +1,23 @@
 <?php
-declare(strict_types = 1);
 
-namespace Site\Models
+namespace Site\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class User extends Model
 {
-    class User
-    {
+    protected $table = 'users';
 
+    protected $fillable = [
+        'email',
+        'name',
+        'password',
+    ];
+
+    public function setPassword($password)
+    {
+        $this->update([
+            'password' => password_hash($password, PASSWORD_DEFAULT)
+        ]);
     }
 }
