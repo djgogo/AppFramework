@@ -3,18 +3,25 @@ declare(strict_types = 1);
 
 namespace Site\Controllers
 {
-    use Interop\Container\ContainerInterface;
+    use Slim\Container;
 
     abstract class Controller
     {
         /**
-         * @var ContainerInterface
+         * @var Container
          */
-        protected $c;
+        protected $container;
 
-        public function __construct(ContainerInterface $c)
+        public function __construct($container)
         {
-            $this->c = $c;
+            $this->container = $container;
+        }
+
+        public function __get($property)
+        {
+            if ($this->container->{$property}) {
+                return $this->container->{$property};
+            }
         }
     }
 }

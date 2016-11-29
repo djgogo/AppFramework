@@ -3,11 +3,14 @@ declare(strict_types = 1);
 
 namespace Site\Controllers
 {
+    use Slim\Http\Request;
+    use Slim\Http\Response;
+
     class HomeController extends Controller
     {
-        public function execute($request, $response, $args)
+        public function execute(Request $request, Response $response)
         {
-            return $this->c->view->render($response, 'home.twig');
+            return $this->view->render($response, 'home.twig');
         }
     }
 }
