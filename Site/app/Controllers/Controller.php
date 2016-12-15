@@ -22,6 +22,8 @@ namespace Site\Controllers
             if ($this->container->{$property}) {
                 return $this->container->{$property};
             }
+
+            return null;
         }
     }
 }

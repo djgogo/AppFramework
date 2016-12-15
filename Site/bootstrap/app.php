@@ -37,9 +37,6 @@ $container['view'] = function ($container) {
         'cache' => false,
     ]);
 
-//    $basePath = rtrim(str_ireplace('index.php', '', $container['request']->getUri()->getBasePath()), '/');
-//    $view->addExtension(new Slim\Views\TwigExtension($container['router'], $basePath));
-
     $view->addExtension(new \Slim\Views\TwigExtension(
         $container->router,
         $container->request->getUri()
@@ -53,6 +50,10 @@ $container['view'] = function ($container) {
     $view->getEnvironment()->addGlobal('flash', $container->flash);
 
     return $view;
+};
+
+$container['csrf'] = function ($container) {
+    return new \Slim\Csrf\Guard();
 };
 
 $container['auth'] = function () {
@@ -84,10 +85,6 @@ $container['validator'] = function ($container) {
     return new \Site\Validation\Validator;
 };
 
-$container['csrf'] = function ($container) {
-    return new \Slim\Csrf\Guard;
-};
-
 $container['flash'] = function ($container) {
     return new \Slim\Flash\Messages;
 };
@@ -98,6 +95,7 @@ $container['flash'] = function ($container) {
 $app->add(new \Site\Middleware\ValidationErrorsMiddleware($container));
 $app->add(new \Site\Middleware\OldInputMiddleware($container));
 $app->add(new \Site\Middleware\CsrfViewMiddleware($container));
+$app->add($container->csrf);
 
 /**
  * Custom Validation Rules
