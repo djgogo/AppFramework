@@ -1,0 +1,7 @@
+**/autoload.php
+build.xml
+vendor
+build
+phpunit.xml
+.idea
+composer.lock
