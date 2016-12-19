@@ -2,52 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a43ec67c-eb47-4153-b75d-71fdbd606903" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/AppFramework.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cart/app/Controllers/HomeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cart/app/Models/Product.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cart/app/container.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cart/app/routes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cart/bootstrap/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cart/public/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cart/resources/views/home.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cart/resources/views/products/partials/item.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cart/resources/views/templates/app.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cart/resources/views/templates/partials/navigation.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Auth/Auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Controllers/Auth/AuthController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Controllers/Auth/PasswordController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Controllers/Controller.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Controllers/HomeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Controllers/UserController(PDO-Variante).php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Database/DatabaseInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Database/EloquentDatabase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Database/PdoDatabase.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Middleware/AuthMiddleware.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Middleware/CsrfViewMiddleware.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Middleware/GuestMiddleware.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Middleware/Middleware.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Middleware/OldInputMiddleware.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Middleware/ValidationErrorsMiddleware.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Models/User.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Validation/Exceptions/EmailAvailableException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Validation/Exceptions/MatchesPasswordException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Validation/Rules/EmailAvailable.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Validation/Rules/MatchesPassword.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/Validation/Validator.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/app/routes.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/bootstrap/app.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/public/css/app.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/resources/views/auth/password/change.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/resources/views/auth/signin.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/resources/views/auth/signup.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/resources/views/home.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/resources/views/templates/app.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/resources/views/templates/partials/flash.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SiteDI/resources/views/templates/partials/navigation.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cart/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Cart/resources/views/products/product.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cart/app/Models/Product.php" afterPath="$PROJECT_DIR$/Cart/app/Models/Product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cart/app/routes.php" afterPath="$PROJECT_DIR$/Cart/app/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cart/public/css/app.css" afterPath="$PROJECT_DIR$/Cart/public/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cart/resources/views/home.twig" afterPath="$PROJECT_DIR$/Cart/resources/views/home.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Cart/resources/views/products/partials/item.twig" afterPath="$PROJECT_DIR$/Cart/resources/views/products/partials/item.twig" />
     </list>
     <ignored path="Exercise.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,18 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cart/bootstrap/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="e#34#47#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="App.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cart/app/App.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -92,23 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="container.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cart/app/container.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-              <folding>
-                <element signature="e#7#48#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cart/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,8 +55,8 @@
       <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cart/app/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+            <state relative-caret-position="72">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
                 <element signature="e#41#65#0#PHP" expanded="true" />
               </folding>
@@ -126,31 +64,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cart/resources/views/templates/app.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cart/resources/views/home.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="36">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="item.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cart/resources/views/products/partials/item.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="162">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cart/app/Controllers/ProductController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+              <folding>
+                <element signature="e#68#92#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cart/resources/views/products/product.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cart/app/Models/Product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -182,11 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Site/app/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/Site/composer.json" />
-        <option value="$PROJECT_DIR$/Site/app/Controllers/Auth/AuthController.php" />
-        <option value="$PROJECT_DIR$/Site/app/Middleware/CsrfViewMiddleware.php" />
-        <option value="$PROJECT_DIR$/Site/resources/views/auth/signup.twig" />
         <option value="$PROJECT_DIR$/Site/bootstrap/app.php" />
         <option value="$PROJECT_DIR$/SiteDI/resources/views/auth/signup.twig" />
         <option value="$PROJECT_DIR$/SiteDI/app/Controllers/Auth/AuthController.php" />
@@ -223,9 +178,7 @@
         <option value="$PROJECT_DIR$/Cart/composer.json" />
         <option value="$PROJECT_DIR$/Cart/app/App.php" />
         <option value="$PROJECT_DIR$/Cart/Bootstrap/app.php" />
-        <option value="$PROJECT_DIR$/Cart/app/routes.php" />
         <option value="$PROJECT_DIR$/SiteDI/app/container.php" />
-        <option value="$PROJECT_DIR$/Cart/app/Models/Product.php" />
         <option value="$PROJECT_DIR$/Cart/app/container.php" />
         <option value="$PROJECT_DIR$/Cart/bootstrap/app.php" />
         <option value="$PROJECT_DIR$/Cart/resources/views/templates/app.twig.php" />
@@ -233,6 +186,13 @@
         <option value="$PROJECT_DIR$/Cart/resources/views/templates/app.twig" />
         <option value="$PROJECT_DIR$/Cart/app/Controllers/HomeController.php" />
         <option value="$PROJECT_DIR$/Cart/resources/views/home.twig" />
+        <option value="$PROJECT_DIR$/Cart/public/css/app.css" />
+        <option value="$PROJECT_DIR$/Cart/app/routes.php" />
+        <option value="$PROJECT_DIR$/Cart/resources/views/products/partials/item.twig" />
+        <option value="$PROJECT_DIR$/Cart/resources/views/products/product.twig" />
+        <option value="$PROJECT_DIR$/Cart/app/Models/Product.php" />
+        <option value="$PROJECT_DIR$/Cart/app/Controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/Cart/.gitignore" />
       </list>
     </option>
   </component>
@@ -449,7 +409,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Site" />
+              <option name="myItemId" value="Cart" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,7 +423,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Site" />
+              <option name="myItemId" value="Cart" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -485,7 +445,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Site" />
+              <option name="myItemId" value="Cart" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -511,7 +471,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Site" />
+              <option name="myItemId" value="Cart" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -528,90 +488,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="partials" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppFramework" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Site" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppFramework" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cart" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppFramework" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cart" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppFramework" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Cart" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -638,10 +514,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -707,6 +579,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AppFramework" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cart" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -721,11 +615,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Cart" />
       <recent name="$PROJECT_DIR$/Cart/public" />
       <recent name="$PROJECT_DIR$/Cart/resources/views/templates" />
       <recent name="$PROJECT_DIR$/Cart/resources/views/templates/partials" />
       <recent name="$PROJECT_DIR$/Cart/app" />
-      <recent name="$PROJECT_DIR$/Cart/Bootstrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Cart/resources/views" />
@@ -809,12 +703,12 @@
       <workItem from="1480683725868" duration="3126000" />
       <workItem from="1481296475530" duration="1815000" />
       <workItem from="1481727173167" duration="29000" />
-      <workItem from="1481789562637" duration="50710000" />
+      <workItem from="1481789562637" duration="57686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140284000" />
+    <option name="totallyTimeSpent" value="147260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1920" height="1030" extended-state="0" />
@@ -873,30 +767,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SiteDI/app/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Coco/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SiteDI/resources/views/templates/app.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SiteDI/app/Validation/Exceptions/EmailAvailableException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -1183,14 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cart/app/Models/Product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cart/bootstrap/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1237,14 +1099,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cart/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cart/resources/views/home.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1261,18 +1115,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cart/public/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cart/resources/views/templates/partials/navigation.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/public/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/resources/views/products/partials/item.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1287,8 +1157,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cart/app/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding>
             <element signature="e#41#65#0#PHP" expanded="true" />
           </folding>
@@ -1297,17 +1167,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cart/resources/views/home.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="36">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cart/resources/views/products/partials/item.twig">
+    <entry file="file://$PROJECT_DIR$/Cart/resources/views/products/product.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="486">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/app/Models/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/app/Controllers/ProductController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="e#68#92#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
