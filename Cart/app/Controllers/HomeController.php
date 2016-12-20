@@ -1,7 +1,6 @@
 <?php
 
-namespace Cart\Controllers
-{
+namespace Cart\Controllers {
 
     use Cart\Models\Product;
     use Slim\Views\Twig;

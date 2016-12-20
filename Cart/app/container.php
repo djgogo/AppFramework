@@ -9,6 +9,7 @@ use function Di\get;
 return [
 
     'router' => get(Slim\Router::class),
+
     Twig::class => function (ContainerInterface $c) {
 
         $twig = new Twig(__DIR__ . '/../resources/views', [
@@ -22,6 +23,7 @@ return [
 
         return $twig;
     },
+
     Product::class => function (ContainerInterface $c) {
         return new Product;
     }
