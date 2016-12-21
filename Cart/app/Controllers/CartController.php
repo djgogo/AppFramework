@@ -1,36 +1,36 @@
 <?php
+declare(strict_types = 1);
 
 namespace Cart\Controllers {
 
-    use Slim\Router;
-    use Slim\Views\Twig;
     use Cart\Models\Product;
-    use Psr\Http\Message\ResponseInterface as Response;
+    use Slim\Views\Twig;
     use Psr\Http\Message\ServerRequestInterface as Request;
+    use Psr\Http\Message\ResponseInterface as Response;
 
     class CartController
     {
         /**
-         * @var Product
+         * @var Request
          */
-        private $product;
+        protected $request;
 
-        public function __construct(Product $product)
-        {
-            $this->product = $product;
-        }
+        /**
+         * @var Response
+         */
+        protected $response;
+
+        /**
+         * @var Twig
+         */
+        protected $view;
 
         public function execute(Request $request, Response $response, Twig $view)
         {
             return $view->render($response, 'cart/index.twig');
         }
 
-        public function add($slug, $quantity, Request $request, Response $response, Router $router)
-        {
-
-        }
-
-        public function update($slug, Request $request, Response $response, Router $router)
+        public function add()
         {
 
         }
