@@ -3,7 +3,10 @@ declare(strict_types = 1);
 
 namespace Cart\Controllers {
 
+    use Cart\Basket\Basket;
+    use Cart\Basket\Exceptions\QuantityExceededException;
     use Cart\Models\Product;
+    use Slim\Router;
     use Slim\Views\Twig;
     use Psr\Http\Message\ServerRequestInterface as Request;
     use Psr\Http\Message\ResponseInterface as Response;
@@ -11,28 +14,47 @@ namespace Cart\Controllers {
     class CartController
     {
         /**
-         * @var Request
+         * @var Basket
          */
-        protected $request;
+        protected $basket;
 
         /**
-         * @var Response
+         * @var Product
          */
-        protected $response;
+        protected $product;
 
         /**
          * @var Twig
          */
         protected $view;
 
-        public function execute(Request $request, Response $response, Twig $view)
+        public function __construct(Basket $basket, Product $product, Twig $view)
         {
-            return $view->render($response, 'cart/index.twig');
+            $this->basket = $basket;
+            $this->product = $product;
+            $this->view = $view;
         }
 
-        public function add()
+        public function execute(Request $request, Response $response)
         {
+            return $this->view->render($response, 'cart/index.twig');
+        }
 
+        public function add($slug, $quantity, Request $request, Response $response, Router $router)
+        {
+            $product = $this->product->where('slug', $slug)->first();
+
+            if (!$product) {
+                return $response->withRedirect($router->pathFor('home'));
+            }
+
+            try {
+                $this->basket->add($product, $quantity);
+            } catch (QuantityExceededException $e) {
+                //TODO Set some log or message in the Session
+            }
+
+            return $response->withRedirect($router->pathFor('cart.index'));
         }
     }
 }

@@ -1,5 +1,4 @@
 <?php
-declare(strict_types = 1);
 
 namespace Cart\Support\Storage {
 
@@ -7,53 +6,51 @@ namespace Cart\Support\Storage {
 
     class Session implements StorageInterface, \Countable
     {
+        protected $bucket;
 
-        /**
-         * @var string
-         */
-        private $data;
-
-        public function __construct($data = 'default')
+        public function __construct($bucket = 'default')
         {
-            if (!isset($_SESSION[$data])) {
-                $_SESSION[$data] = [];
+            if (!isset($_SESSION[$bucket])) {
+                $_SESSION[$bucket] = [];
             }
-            $this->data = $data;
-        }
 
-        public function get($key)
-        {
-           if (!$this->exists($key)) {
-               return null;
-           }
-           return $_SESSION[$this->data][$key];
+            $this->bucket = $bucket;
         }
 
         public function set($key, $value)
         {
-            $_SESSION[$this->data][$key] = $value;
+            $_SESSION[$this->bucket][$key] = $value;
         }
 
-        public function all()
+        public function get($key)
         {
-            return $_SESSION[$this->data];
+            if (!$this->exists($key)) {
+                return null;
+            }
+
+            return $_SESSION[$this->bucket][$key];
         }
 
         public function exists($key)
         {
-            return isset($_SESSION[$this->data][$key]);
+            return isset($_SESSION[$this->bucket][$key]);
+        }
+
+        public function all()
+        {
+            return $_SESSION[$this->bucket];
         }
 
         public function unset($key)
         {
             if ($this->exists($key)) {
-                unset($_SESSION[$this->data][$key]);
+                unset($_SESSION[$this->bucket][$key]);
             }
         }
 
         public function clear()
         {
-            unset($_SESSION[$this->data]);
+            unset($_SESSION[$this->bucket]);
         }
 
         /**
