@@ -71,7 +71,6 @@ namespace Cart\Basket {
 
         public function all()
         {
-            var_dump($this->storage->all()); exit;
             $ids = [];
             $items = [];
 
@@ -91,7 +90,7 @@ namespace Cart\Basket {
 
         public function itemCount()
         {
-            return count($this->storage);
+            return $this->storage->count();
         }
 
         public function subTotal()

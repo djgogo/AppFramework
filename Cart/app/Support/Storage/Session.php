@@ -6,9 +6,12 @@ namespace Cart\Support\Storage {
 
     class Session implements StorageInterface, \Countable
     {
+        /**
+         * @var string
+         */
         protected $bucket;
 
-        public function __construct($bucket = 'default')
+        public function __construct(string $bucket = 'default')
         {
             if (!isset($_SESSION[$bucket])) {
                 $_SESSION[$bucket] = [];

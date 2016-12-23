@@ -10,5 +10,6 @@ namespace Cart\Support\Storage\Contracts {
         public function exists($key);
         public function unset($key);
         public function clear();
+        public function count();
     }
 }
