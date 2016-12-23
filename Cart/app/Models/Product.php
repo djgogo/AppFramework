@@ -6,11 +6,6 @@ namespace Cart\Models
 
     class Product extends Model
     {
-        /**
-         * @var int
-         */
-        private $stock;
-
         public function hasLowStock() : bool
         {
             if ($this->outOfStock()) {

@@ -1,5 +1,4 @@
 <?php
-declare(strict_types = 1);
 
 use Cart\App;
 use Illuminate\Database\Capsule\Manager as Capsule;

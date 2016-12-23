@@ -3,8 +3,8 @@ declare(strict_types = 1);
 
 namespace Cart\Controllers
 {
-
     use Cart\Models\Product;
+    use Psr\Http\Message\ResponseInterface;
     use Psr\Http\Message\ServerRequestInterface as Request;
     use Psr\Http\Message\ResponseInterface as Response;
     use Slim\Router;
